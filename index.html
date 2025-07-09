@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Agencia</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body class="font-sans antialiased text-gray-800">
+ <header class="absolute inset-x-0 top-0 z-50">
+<!-- Hero Section con Header dentro -->
+  <section id="home" class="relative h-screen bg-cover bg-center" style="background-image:url('img/herobg.jpg')">
+    <!-- Capa oscura -->
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+    <!-- Top bar con enlaces y redes -->
+    <div class="absolute inset-x-0 top-0 flex justify-between items-center px-6 py-4 z-50">
+      <!-- Enlaces superiores -->
+      <div class="flex items-center text-xs uppercase text-white space-x-2">
+        <a href="#services" class="hover:text-blue-300">Services</a>
+        <span>|</span>
+        <a href="#pricing" class="hover:text-blue-300">Pricing</a>
+        <span>|</span>
+        <a href="#contact" class="font-semibold hover:text-blue-300">Request a Quote</a>
+      </div>
+      <!-- Íconos sociales -->
+      <div class="flex space-x-4 text-white text-xl">
+        <a href="#" class="hover:text-blue-400"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="hover:text-sky-400"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="hover:text-red-400"><i class="fab fa-google-plus-g"></i></a>
+        <a href="#" class="hover:text-blue-700"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <!-- Menú principal -->
+    <nav class="absolute inset-x-0 top-16 z-50">
+      <ul class="container mx-auto px-6 flex justify-center space-x-8 text-white uppercase text-sm">
+        <li><a href="#home" class="hover:text-blue-300">Home</a></li>
+        <li><a href="#about" class="hover:text-blue-300"><span class="text-cyan-400">About</span></a></li>
+        <li><a href="#services" class="hover:text-blue-300">Services</a></li>
+        <li><a href="#portfolio" class="hover:text-blue-300">Portfolio</a></li>
+        <li><a href="#pricing" class="hover:text-blue-300">Pricing</a></li>
+        <li><a href="#blog" class="hover:text-blue-300">Blog</a></li>
+        <li><a href="#contact" class="hover:text-blue-300">Contact</a></li>
+        <!-- Ícono lupa -->
+        <li><a href="#" class="text-white hover:text-cyan-400">
+        <i class="fas fa-search"></i></a></li>
+      </ul>
+    </nav>
+
+    <!-- Texto centrado -->
+      <div class="container mx-auto px-6 h-full flex flex-col justify-center items-center text-center z-40">
+        <h1 class="text-white text-5xl md:text-6xl font-bold mb-4">WE ARE CREATIVE</h1>
+      </div>
+
+  </section>
+
+
+  <main>
+
+    <!-- Philosophy & Mission -->
+    <section class="bg-white py-16">
+    <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+    
+    <!-- Texto -->
+    <div>
+      <!-- Línea decorativa -->
+      <div class="flex items-center space-x-2 mb-6">
+        <div class="w-6 h-0.5 bg-cyan-500"></div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-cyan-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h4l3 8 4-16 3 8h4" />
+        </svg>
+        <div class="w-full h-0.5 bg-gray-200"></div>
+      </div>
+
+      <p class="text-gray-600 mb-6">
+        EasyWeb is a premium design agency that focuses on quality, innovation, & speed. We utilize technology to bring results to grow our clients' businesses. We pride ourselves in great work ethic, integrity, and end-results.
+      </p>
+
+      <div class="mb-6">
+        <h3 class="text-lg font-semibold text-gray-900 mb-1">Philosophy</h3>
+        <p class="text-gray-600">Our company philosophy is to create the kind of website that most businesses want: easy to find, stylish and appealing, quick loading, mobile responsive and easy to buy from.</p>
+      </div>
+
+      <div>
+        <h3 class="text-lg font-semibold text-gray-900 mb-1">Mission</h3>
+        <p class="text-gray-600">We’ve designed our entire process and products around providing everything a small business needs when they’re starting out – ensuring that working with us is always a quick, easy and hassle-free experience.</p>
+      </div>
+    </div>
+
+    <!-- Imagen -->
+    <div>
+      <img src="img/segundaimg.jpg" alt="Philosophy and Mission" class="w-full h-auto rounded shadow-md object-cover">
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- Services Groups -->
+<section class="bg-gray-100 py-20">
+  <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 text-center">
+    
+    <!-- Design Group -->
+    <div>
+      <h3 class="text-2xl font-semibold mb-4">
+        <span class="font-bold">DESIGN</span> GROUP
+      </h3>
+      <p class="text-gray-600 max-w-md mx-auto">
+        With our in-house award winning designers, we recognize the fact that usability, functionality and visualization are three of the most important factors when designing interfaces or web sites. Using this strategy, we work with you to ensure that your messaging and marketing goals are realized with the designs we create. We will work with you and bring your idea to life.
+      </p>
+    </div>
+
+    <!-- Development Group -->
+    <div>
+      <h3 class="text-2xl font-semibold mb-4">
+        <span class="font-bold">DEVELOPMENT</span> GROUP
+      </h3>
+      <p class="text-gray-600 max-w-md mx-auto">
+        As a leading mobile application development company, EasyWeb has extensive experience in creating high performance, feature-packed native mobile applications for all the major mobile platforms including iOS, Android, BlackBerry OS and Windows Mobile. EasyWeb mobile app developers can create the right app that will meet your business, industry and/or vertical needs.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- Team -->
+    <section id="portfolio" class="container mx-auto px-6 py-16 grid grid-cols-2 md:grid-cols-4 gap-4">
+      <img src="img/team1.jpg" alt="Team 1" class="w-full h-auto object-cover">
+      <img src="img/team2.jpg" alt="Team 2" class="w-full h-auto object-cover">
+      <img src="img/team3.jpg" alt="Team 3" class="w-full h-auto object-cover">
+      <img src="img/team4.jpg" alt="Team 4" class="w-full h-auto object-cover">
+    </section>
+
+    <!-- Started Project -->
+    <section id="contact" class="relative h-80 bg-cover bg-center py-28 flex items-center" style="background-image:url('img/cta-bg.jpg')">
+      <div class="container mx-auto px-6 relative text-center">
+        <h2 class="text-4xl font-extrabold mb-4 text-gray-900">Let's Get Started your project</h2>
+        <p class="text-gray-600 mb-8">We will help you to achieve your goals and to grow your business.</p>
+        <a href="#" class="inline-block bg-blue-500 hover:bg-blue-600 text-white uppercase text-sm font-medium py-3 px-6 rounded">Request a Quote</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 pt-16">
+    <div class="container mx-auto px-6 grid md:grid-cols-4 gap-12 pb-12">
+
+    <!-- About -->
+    <div>
+      <h4 class="text-white uppercase font-bold mb-4">About Us</h4>
+      <p class="mb-4 text-sm">
+        EasyWeb excels at custom design and front end development. We love taking on challenging projects that require full-on content strategy, thoughtful design, demanding development, and ongoing marketing.
+      </p>
+      <p class="text-sm font-bold text-white">
+        Address: <span class="font-normal">212, Brooklyn, New York</span><br>
+        Tel: <span class="font-normal">987.654.3210</span>
+      </p>
+      <div class="flex space-x-3 mt-4">
+        <a href="#" class="bg-gray-800 p-2 rounded text-white hover:bg-gray-700">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="bg-gray-800 p-2 rounded text-white hover:bg-gray-700">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="bg-gray-800 p-2 rounded text-white hover:bg-gray-700">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Recent Posts -->
+    <div>
+      <h4 class="text-white uppercase font-bold mb-4">Recent Posts</h4>
+      <ul class="space-y-4 text-sm">
+        <li class="flex space-x-4">
+          <img src="img/post1.jpg" class="w-12 h-12 object-cover rounded" alt="">
+          <div>
+            <p class="text-white">Live support, key of an endless satisfaction</p>
+            <span class="text-gray-500 text-xs">February 4, 2016</span>
+          </div>
+        </li>
+        <li class="flex space-x-4">
+          <img src="img/post2.jpg" class="w-12 h-12 object-cover rounded" alt="">
+          <div>
+            <p class="text-white">Traffic control test by New York Cabs</p>
+            <span class="text-gray-500 text-xs">February 4, 2016</span>
+          </div>
+        </li>
+        <li class="flex space-x-4">
+          <img src="img/post3.jpg" class="w-12 h-12 object-cover rounded" alt="">
+          <div>
+            <p class="text-white">Strong servers, customer friendly services</p>
+            <span class="text-gray-500 text-xs">February 4, 2016</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Instagram -->
+    <div>
+      <h4 class="text-white uppercase font-bold mb-4">Instagram</h4>
+      <div class="grid grid-cols-3 gap-2">
+        <img src="img/insta1.jpg" alt="" class="w-full h-auto object-cover rounded">
+        <img src="img/insta2.jpg" alt="" class="w-full h-auto object-cover rounded">
+        <img src="img/insta3.jpg" alt="" class="w-full h-auto object-cover rounded">
+      </div>
+    </div>
+
+    <!-- Newsletter -->
+    <div>
+      <h4 class="text-white uppercase font-bold mb-4">Newsletter</h4>
+      <div class="bg-gray-800 p-6 rounded">
+        <p class="text-sm mb-4 text-gray-400">Join our mailing list to receive news and announcements</p>
+        <form class="space-y-4">
+          <input type="email" placeholder="Enter your email" class="w-full p-2 bg-gray-900 text-white border border-gray-700 rounded focus:outline-none focus:ring-2 focus:ring-cyan-500">
+          <button type="submit" class="w-full bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-2 rounded">GO</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="border-t border-gray-800 py-6 text-center text-sm text-gray-500">
+    <p>&copy; 2018 All Rights Reserved. Created by Webnus.</p>
+    <div class="mt-2 space-x-4 text-xs text-cyan-400">
+      <a href="#" class="hover:underline">ABOUT US</a>
+      <a href="#" class="hover:underline">TEAM</a>
+      <a href="#" class="hover:underline">WORKS</a>
+      <a href="#" class="hover:underline">CLIENTS</a>
+      <a href="#" class="hover:underline">NEWS</a>
+      <a href="#" class="hover:underline">CONTACT US</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
